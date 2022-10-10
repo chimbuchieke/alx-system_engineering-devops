@@ -1,2 +1,2 @@
 #!/bin/bash
-head --lines=3 icta | tail --lines=1
+head -n 3 icta | tail -n +3
